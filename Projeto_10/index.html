@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="./js/scripts.js"></script>
-    <link rel="stylesheet" href="./css/styles.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lazy Load com JavaScript</title>
-</head>
-<body>
-    <h1 class="title">Florestas pelo mundo</h1>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Florestas pelo Mundo</h1>
     <div class="container">
-        <div class="image-container">
-            <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmxvcmVzdGFzfGVufDB8fDB8fHww" alt="Floresta 1">
-            <p>Floresta 1</p>
-        </div>
-        <div class="image-container">
-            <img src="https://plus.unsplash.com/premium_photo-1666724568420-e282bafa8d2c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmxvcmVzdGFzfGVufDB8fDB8fHww" alt="Floresta 2">
-            <p>Floresta 2</p>
-        </div>
-        <div class="image-container">
-            <img src="https://images.unsplash.com/photo-1605810257524-b66f77c5066d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxvcmVzdGFzfGVufDB8fDB8fHww" alt="Floresta 3">
-            <p>Floresta 3</p>
-        </div>
-        <div class="image-container">
-            <img src="https://images.unsplash.com/photo-1516571137133-1be29e37143a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxmbG9yZXN0YXN8ZW58MHx8MHx8fDA%3D" alt="Floresta 4">
-            <p>Floresta 4</p>
-        </div>
-        <div class="image-container">
-            <img src="https://images.unsplash.com/photo-1629316583544-7d83debbc4ad?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZsb3Jlc3Rhc3xlbnwwfHwwfHx8MA%3D%3D" alt="Floresta 5">
-            <p>Floresta 5</p>
-        </div>
-        <div class="image-container">
-            <img src="https://images.unsplash.com/photo-1634442795837-2ccd6c7d5f01?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fGZsb3Jlc3Rhc3xlbnwwfHwwfHx8MA%3D%3D" alt="Floresta 6">
-            <p>Floresta 6</p>
-        </div>
+      <div class="image-container">
+        <img
+          src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=10&q=60"
+          alt="Floresta 1"
+        />
+        <p>Floresta 1</p>
+      </div>
+      <div class="image-container">
+        <img
+          src="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9yZXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=10&q=60"
+          alt="Floresta 2"
+        />
+        <p>Floresta 2</p>
+      </div>
+      <div class="image-container">
+        <img
+          src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9yZXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=10&q=60"
+          alt="Floresta 3"
+        />
+        <p>Floresta 3</p>
+      </div>
+      <div class="image-container">
+        <img
+          src="https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9yZXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=10&q=60"
+          alt="Floresta 4"
+        />
+        <p>Floresta 4</p>
+      </div>
+      <div class="image-container">
+        <img
+          src="https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvcmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=10&q=60"
+          alt="Floresta 5"
+        />
+        <p>Floresta 5</p>
+      </div>
+      <div class="image-container">
+        <img
+          src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZvcmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=10&q=60"
+          alt="Floresta 6"
+        />
+        <p>Floresta 6</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
